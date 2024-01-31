@@ -1,0 +1,108 @@
+repo_name: hantsy/kotlin-sandbox
+report_id: ffbe189e59cc824efacb2e26dc89edef
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:52:20+00:00'
+requested_by: hantsy
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/hantsy/kotlin-sandbox
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '28.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/hantsy/kotlin-sandbox/blob/master/dessert-pusher/app/build.gradle
+  detection_source: dessert-pusher/app/build.gradle
+  last_updated_by: hantsy
+  last_updated_on: 2023-07-14 16:01:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hantsy/kotlin-sandbox
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/hantsy/kotlin-sandbox/blob/master/dessert-pusher/app/build.gradle
+  detection_source: dessert-pusher/app/build.gradle
+  last_updated_by: hantsy
+  last_updated_on: 2023-07-14 16:01:50.000000000 Z
+- name: Timber.io
+  description: Automatically convert logs from messy, hard-to-use, raw text to rich,
+    useful, clean events.
+  website_url: https://timber.io/
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/7634/xBNoTqvy_400x400.jpg
+  detection_source_url: https://github.com/hantsy/kotlin-sandbox/blob/master/dessert-pusher/app/build.gradle
+  detection_source: dessert-pusher/app/build.gradle
+  last_updated_by: hantsy
+  last_updated_on: 2023-07-14 16:01:50.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '9.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/hantsy/kotlin-sandbox/blob/master/dessert-pusher/app/build.gradle
+  detection_source: dessert-pusher/app/build.gradle
+  last_updated_by: hantsy
+  last_updated_on: 2023-07-14 16:01:50.000000000 Z
+- name: com.jakewharton.timber:timber
+  description: No-nonsense injectable logging
+  version: 4.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/kotlin-sandbox/blob/master/dessert-pusher/app/build.gradle
+  detection_source: dessert-pusher/app/build.gradle
+  last_updated_by: hantsy
+  last_updated_on: 2023-07-14 16:01:50.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/kotlin-sandbox/blob/master/dessert-pusher/app/build.gradle
+  detection_source: dessert-pusher/app/build.gradle
+  last_updated_by: hantsy
+  last_updated_on: 2023-07-14 16:01:50.000000000 Z
